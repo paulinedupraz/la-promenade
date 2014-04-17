@@ -12,6 +12,13 @@
     <script type="text/x-handlebars">
         <div class="sidebar grid_6">
             <h1>{{#linkTo 'index'}}Le Café de la Promenade{{/linkTo}}</h1>
+
+            {{#linkTo 'suggestions'}}Les Suggestions de la semaine{{/linkTo}}
+            {{#linkTo 'appetizer'}}Entrées{{/linkTo}}
+            {{#linkTo 'cheese'}}Spécialités au Fromage{{/linkTo}}
+            {{#linkTo 'crepes'}}Crêpes et Galettes{{/linkTo}}
+            {{#linkTo 'ice-cream'}}Glaces artisanales{{/linkTo}}
+            {{#linkTo 'drinks'}}Boissons{{/linkTo}}
         </div> 
         <div class="main grid_18">
             {{outlet}}
@@ -19,6 +26,26 @@
     </script>
 
     <script type="text/x-handlebars" data-template-name="index">
+    </script>
+
+    <script type="text/x-handlebars" data-template-name="suggestions">
+        <h3>Les Suggestions de la semaine</h3>
+    </script>
+    <script type="text/x-handlebars" data-template-name="appetizer">
+        <h3>Entrées</h3>
+    </script>
+    <script type="text/x-handlebars" data-template-name="cheese">
+        <h3>Spécialités au Fromage</h3>
+    </script>
+    <script type="text/x-handlebars" data-template-name="crepes">
+        <h3>Crêpes et Galettes</h3>
+    </script>
+    <script type="text/x-handlebars" data-template-name="ice-cream">
+        <h3>Glaces artisanales</h3>
+    </script>
+    <script type="text/x-handlebars" data-template-name="drinks">
+        <h3>Boissons</h3>
+    </script>
    
     <script src="js/libs/jquery-1.10.2.js"></script>
     <script src="js/libs/handlebars-1.1.2.js"></script>

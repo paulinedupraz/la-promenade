@@ -46,8 +46,12 @@ App.Router.reopen({
 
 
 App.Router.map(function() {
-  
-
+    this.route("suggestions", { path: "/suggestions-de-la-semaine" });
+    this.route("appetizer", { path: "/entrees" });
+    this.route("cheese", { path: "/specialites-au-fromage" });
+    this.route("crepes", { path: "/crepes-et-galettes" });
+    this.route("ice-cream", { path: "/glaces-artisanales" });
+    this.route("drinks", { path: "/boissons" });
 });
 
 
