@@ -11,14 +11,14 @@
     
     <script type="text/x-handlebars">
         <div class="sidebar grid_6">
-            <h1>{{#linkTo 'index'}}Le Café de la Promenade{{/linkTo}}</h1>
+            <h1>{{#link-to 'index'}}Le Café de la Promenade{{/link-to}}</h1>
 
-            {{#linkTo 'suggestions'}}Les Suggestions de la semaine{{/linkTo}}
-            {{#linkTo 'appetizer'}}Entrées{{/linkTo}}
-            {{#linkTo 'cheese'}}Spécialités au Fromage{{/linkTo}}
-            {{#linkTo 'crepes'}}Crêpes et Galettes{{/linkTo}}
-            {{#linkTo 'ice-cream'}}Glaces artisanales{{/linkTo}}
-            {{#linkTo 'drinks'}}Boissons{{/linkTo}}
+            {{#link-to 'suggestions'}}Les Suggestions de la semaine{{/link-to}}
+            {{#link-to 'appetizer'}}Entrées{{/link-to}}
+            {{#link-to 'cheese'}}Spécialités au Fromage{{/link-to}}
+            {{#link-to 'crepes'}}Crêpes et Galettes{{/link-to}}
+            {{#link-to 'ice-cream'}}Glaces artisanales{{/link-to}}
+            {{#link-to 'drinks'}}Boissons{{/link-to}}
         </div> 
         <div class="main grid_18">
             {{outlet}}
@@ -107,7 +107,7 @@
 
     <!-- FOOTER -->
     <script type="text/x-handlebars" data-template-name="_footer">
-        {{#linkTo 'index'}}Retour à l’accueil{{/linkTo}}
+        {{#link-to 'index' classNames='button icon icon-arrow-left'}}Retour à l’accueil{{/link-to}}
     </script>
 
    
