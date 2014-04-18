@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "category": "appetizer",
+        "title": "Salade",
+        "price": "7.-"
+    },
+    {
+        "id": 1,
+        "category": "appetizer",
+        "title": "Soupe",
+        "price": "7.-"
+    },
+    {
+        "id": 2,
+        "category": "drinks",
+        "title": "Bière",
+        "price": "3.-"
+    }
+]
