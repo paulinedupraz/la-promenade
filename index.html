@@ -66,32 +66,50 @@
     <!-- Suggestions of the week page -->
     <script type="text/x-handlebars" data-template-name="suggestions">
         <h3>Les Suggestions de la semaine</h3>
+
+        {{ partial 'footer'}}
     </script>
 
     <!-- Appetizer page -->
     <script type="text/x-handlebars" data-template-name="appetizer">
         <h3>Entrées</h3>
+
+        {{ partial 'footer'}}
     </script>
 
     <!-- Cheese specials page -->
     <script type="text/x-handlebars" data-template-name="cheese">
         <h3>Spécialités au Fromage</h3>
+
+        {{ partial 'footer'}}
     </script>
 
     <!-- Crepes page -->
     <script type="text/x-handlebars" data-template-name="crepes">
         <h3>Crêpes et Galettes</h3>
+
+        {{ partial 'footer'}}
     </script>
 
     <!-- Ice cream page -->
     <script type="text/x-handlebars" data-template-name="ice-cream">
         <h3>Glaces artisanales</h3>
+
+        {{ partial 'footer'}}
     </script>
 
     <!-- Drinks page -->
     <script type="text/x-handlebars" data-template-name="drinks">
         <h3>Boissons</h3>
+
+        {{ partial 'footer'}}
     </script>
+
+    <!-- FOOTER -->
+    <script type="text/x-handlebars" data-template-name="_footer">
+        {{#linkTo 'index'}}Retour à l’accueil{{/linkTo}}
+    </script>
+
    
     <script src="js/libs/jquery-1.10.2.js"></script>
     <script src="js/libs/handlebars-1.1.2.js"></script>
