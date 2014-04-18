@@ -38,12 +38,9 @@ Ember.Location.registerImplementation('hashbang', Ember.HashLocation.extend({
 
 })();
 
-App = Ember.Application.create();
-
 App.Router.reopen({
     location: 'hashbang'
 })
-
 
 App.Router.map(function() {
     this.resource("suggestions", { path: "/suggestions-de-la-semaine" });
@@ -52,7 +49,9 @@ App.Router.map(function() {
     this.resource("crepes", { path: "/crepes-et-galettes" });
     this.resource("ice-cream", { path: "/glaces-artisanales" });
     this.resource("drinks", { path: "/boissons" });
+    this.resource("drink", { path: "/boissons/:drink_id" });
 });
+
 
 
 
